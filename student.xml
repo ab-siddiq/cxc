@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hoteList[
+	<!ELEMENT studentList (student*)>
+	<!ELEMENT student (name*, id*, cgpa, courses*, course, section, grade>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT id (#PCDATA)>
+	<!ELEMENT cgpa (#PCDATA)>
+	<!ELEMENT courses 	(course*)
+		<!ELEMENT course(courseName*)
+		<!ATTLIST facility Number CDATA#REQUIRED>
+		>
+	>
+				
+
+	
+	]>
+<studentList>
+	
+	<student>
+		<name>Student Name: Salam</name>
+		<id>ID: 342</id>
+		<cgpa>CGPA: 3.5</cgpa>
+		<courses>
+			<course Number='1'>
+				<courseName>1. Web Tech</courseName>
+				<section>Section: B</section>
+				<grade>Grade: A+</grade>
+			</course>
+			<course Number='2'>
+				<courseName>2. Computer Graphics</courseName>
+				<section>Section: B</section>
+				<grade>Grade: A</grade>
+			</course>
+		</courses>
+		
+	</student>
+	
+	<student>
+		<name>Student Name: Abdul</name>
+		<id>ID: 123</id>
+		<cgpa>CGPA: 2.45</cgpa>
+		<courses>
+			<course Number='1'>
+				<courseName>1. Web Tech</courseName>
+				<section>Section: B</section>
+				<grade>Grade: A+</grade>
+			</course>
+			<course Number='2'>
+				<courseName>2. Computer Graphics</courseName>
+				<section>Section: B</section>
+				<grade>Grade: A</grade>
+			</course>
+		</courses>
+		
+	</student>
+	
+	<student>
+		<name>Student Name: Sabbir</name>
+		<id>ID: 173</id>
+		<cgpa>CGPA: 2.9</cgpa>
+		<courses>
+			<course Number='1'>
+				<courseName>1. Web Tech</courseName>
+				<section>Section: B</section>
+				<grade>Grade: A+</grade>
+			</course>
+			<course Number='2'>
+				<courseName>2. Computer Graphics</courseName>
+				<section>Section: B</section>
+				<grade>Grade: A</grade>
+			</course>
+		</courses>
+		
+	</student>
+
+</studentList>
